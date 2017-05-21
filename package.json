@@ -1,0 +1,26 @@
+{
+  "name": "SYNRGY",
+  "version": "1.0.0",
+  "description": "A PhoneGap Hello World template",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublish": "typings install",
+    "watch": "webpack --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-loader": "^2.0.3",
+    "typescript": "^2.4.0-dev.20170519",
+    "typings": "^2.1.1",
+    "webpack": "^2.5.1"
+  },
+  "dependencies": {
+    "@types/react": "^15.0.24",
+    "@types/react-dom": "^15.5.0",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4"
+  }
+}
